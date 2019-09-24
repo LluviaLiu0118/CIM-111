@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Volkhov:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Pro:400,700|Volkhov:400,700&display=swap');
+    body{
+      background-color:lightslategray;
+    }
+
+    h1{
+      font-family:'Volkhov', serif;
+    }
+    h2{
+      font-family:'Crimson pro', serif;
+    }
+    p{
+      font-family:'Crimson pro', serif;
+    }
+    ol{
+      font-family:'Crimson pro', serif;
+    }
+    address{
+    color: DarkSlateGray;
+    text-align-last: center;
+    }
+    a{
+      color: midnightblue;
+      text-decoration: none;
+      font-size: 12px;
+    }
+    a:visited{
+      color: royalblue;
+    }
+    a:hover{
+      background-color: white;
+      font-style: italic;
+    }
+
+    #centerName{
+      text-align: center;
+    }
+    #mytable{
+      font-family:'Crimson pro', serif;
+      table-layout: fixed; width:100%;
+      text-align-last: center;
+    }
+    #section1{
+      background-color: rgba(255,255,255,0.5);
+      box-shadow: 12px 12px 2px 1px rgba(255,255,255,0.4);
+    }
+    #section2{
+      background-color: rgba(255,255,255,0.5);
+      box-shadow: 12px 12px 2px 1px rgba(255,255,255,0.4);
+    }
+    #section3{
+      background-color:rgba(255,255,255,0.5);
+      box-shadow: 12px 12px 2px 1px rgba(255,255,255,0.4);
+    }
+    #section4{
+      background-color: rgba(255,255,255,0.5);
+      box-shadow: 12px 12px 2px 1px rgba(255,255,255,0.4);
+    }
+    #orderlist{
+      list-style: square;
+    }
+    .title{
+      font-size: 25px;
+    }
+    .subtitle{
+      text-decoration: underline;
+    }
