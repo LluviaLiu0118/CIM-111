@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam:300,400,700&display=swap');
+    header{
+      background-color: #DD642F;
+      width: 920px;
+      height: auto;
+      padding: 20px 20px 20px 20px;
+
+      border-width: 7px 7px 7px 7px;
+      border-color: #73978F;
+      border-style: inset;
+      border-color: #73978F;
+
+      margin: 0 auto;
+      margin-top: -8px;
+    }
+
+    main{
+      background-color: #EEA77D;
+      width: 920px;
+      height: auto;
+
+      padding: 20px;
+      padding-top: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+
+      border-style: inset;
+      border-width: 7px 7px 7px 7px;
+      border-color: #BAB879;
+
+      margin-top: 10px;
+      margin-right: auto;
+      margin-bottom: 20px;
+      margin-left: auto;
+    }
+
+    footer{
+      background-color: #FFEFA4;
+      width: 960px;
+      height: 50px;
+      margin: 0 auto;
+      margin-top: -10px;
+      border-style: inset;
+      border-width: 7px 7px 7px 7px;
+      border-color: #DD624F;
+    }
+
+    footer address{
+        font-family: 'Kalam', cursive;
+        font-size:15px;
+        color: #B38133;
+        text-align-last: center;
+    }
+
+    nav{
+      background-color: #BAB879;
+      width: 500px;
+      margin: 0 auto;
+      border-style: dashed;
+      border-color: #73978F;
+      border-width: 5px;
+    }
+
+    nav ul li{
+      list-style: none;
+      display: inline-block;
+      margin-right: 20px;
+      padding: 5px;
+    }
+
+    nav ul li a{
+      color: #B38133;
+      text-decoration: none;
+      font-family: 'Kalam', cursive;
+      font-size: 20px;
+    }
+
+    nav ul li:hover{
+      background-color: #FFEFA4;
+    }
+
+    h1{
+      font-family: 'Kalam', cursive;
+      text-align: center;
+      font-size: 50px;
+      color: #66361D;
+    }
+
+    h2{
+      font-family: 'Kalam', cursive;
+      text-align: left;
+      font-size: 35px;
+      color: #66361D;
+    }
+
+    img{
+      width: 800px;
+      margin: 0 auto;
+      display: block;
+    }
+
+    p{
+      font-family: 'Kalam', cursive;
+      font-size: 20px;
+      color: black;
+      text-align: justify;
+    }
+
+    #grid1{
+      width: 900px;
+      height: auto;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+      grid-column-gap: 20px;
+    }
+
+    #grid1 h3{
+      font-family:'Kalam', cursive;
+      font-size: 25px;
+      text-align: center;
+    }
+
+    #grid1 img{
+      width: 500px;
+    }
+
+    #grid1 p{
+      font-family:'Kalam', cursive;
+      font-size: 20px;
+    }
+
+    #grid1 a{
+      color: #B38133;
+      text-decoration: underline;
+      font-size:18px;
+      text-align: center;
+      font-family: 'Kalam', cursive;
+    }
+
+    #grid1 a:visited{
+      color: #FFEFA4;
+    }
+
+    #grid1 a:hover{
+      background-color: #DD642F;
+      font-style: italic;
+    }
+
+    #grid2{
+      width: 900px;
+      height: auto;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 20px;
+    }
+
+    #grid2 img{
+      width: 220px;
+      display: inline-block;
+    }
+
+    #grid2 p{
+      width: 450px;
+      height: auto;
+      display: inline-block;
+      vertical-align: top;
+      font-size: 18px;
+      font-family: 'Kalam', cursive;
+    }
+
+    #grid3{
+      width: 900px;
+      height: auto;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 20px;
+    }
+
+    #grid3 img{
+      width: 350px;
+      display: inline-block;
+    }
+
+    #grid3 p{
+      width: 450px;
+      height: auto;
+      display: inline-block;
+      vertical-align: top;
+      font-size: 18px;
+      font-family: 'Kalam', cursive;
+    }
+
+    #grid4{
+      width: 900px;
+      height: auto;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 20px;
+    }
+
+    #grid4 img{
+      width: 220px;
+      display: inline-block;
+    }
+
+    #grid4 p{
+      width: 450px;
+      height: auto;
+      display: inline-block;
+      vertical-align: top;
+      font-size: 18px;
+      font-family: 'Kalam', cursive;
+    }
+
+    #grid5 {
+      width: 900px;
+      height: auto;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+      grid-column-gap: 20px;
+    }
+
+    #grid5 h3{
+      font-family: 'Kalam', cursive;
+      font-size: 25px;
+      text-align: center;
+    }
+
+    #grid5 img{
+      width: 500px;
+    }
+
+    #grid5 p{
+      font-family:'Kalam', cursive;
+      font-size: 20px;
+    }
+    #grid5 a{
+      color: #B38133;
+      text-decoration: underline;
+      font-size:18px;
+      text-align: center;
+      font-family: 'Kalam', cursive;
+    }
+
+    #grid5 a:visited{
+      color: #FFEFA4;
+    }
+
+    #grid5 a:hover{
+      background-color: #DD642F;
+      font-style: italic;
+    }
+
+    #grid6{
+      width: 900px;
+      height: auto;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 20px;
+    }
+
+    #grid6 img{
+      width: 400px;
+      display: inline-block;
+    }
+
+    #grid6 p{
+      width: 450px;
+      height: auto;
+      display: inline-block;
+      vertical-align: top;
+      font-size: 18px;
+      font-family: 'Kalam', cursive;
+    }
+
+    #grid7{
+      width: 900px;
+      height: auto;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+      grid-column-gap: 20px;
+    }
+
+    #grid7 h3{
+      font-family:'Kalam', cursive;
+      font-size: 25px;
+      text-align: center;
+    }
+
+    #grid7 img{
+      width: 500px;
+    }
+
+    #grid7 p{
+      font-family:'Kalam', cursive;
+      font-size: 20px;
+    }
+
+    #grid7 a{
+      color: #B38133;
+      text-decoration: underline;
+      font-size:18px;
+      text-align: center;
+      font-family: 'Kalam', cursive;
+    }
+
+    #grid7 a:visited{
+      color: #FFEFA4;
+    }
+
+    #grid7 a:hover{
+      background-color: #DD642F;
+      font-style: italic;
+    }
+
+    #grid8{
+      width: 900px;
+      height: auto;
+      margin: 0 auto;
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 20px;
+    }
+
+    #grid8 img{
+      width: 350px;
+    }
+
+    #grid8 p{
+      width: auto;
+      height: auto;
+      display: inline-block;
+      vertical-align: top;
+      font-family: 'Kalam', cursive;
+      font-size: 18px;
+    }
