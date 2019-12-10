@@ -80,7 +80,7 @@ footer address{
 #section1 img{
   width: 500px;
   margin: 0 auto;
-  display: inline-block;
+  display: block;
 }
 
 #section1 p{
