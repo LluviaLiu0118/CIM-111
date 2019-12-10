@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter|Playfair+Display:400,700&display=swap');
+header{
+  background-color: #9FB3AC;
+  width: 920px;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+
+  margin: 0 auto;
+  margin-top: -8px;
+}
+
+nav{
+  width: 600px;
+  margin: 0 auto;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  font-family: 'Bitter', serif;
+  font-size: 15px;
+}
+
+nav ul li :hover{
+  font-style: oblique;
+  background-color: #FCFAF1;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+}
+
+main{
+  background-color: #FCFAF1;
+  width: 920px;
+  height: auto;
+
+  padding: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+
+  margin-top: -10px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+footer{
+  background-color: #4F5D5C;
+  width: 960px;
+  height: auto;
+  text-align-last: center;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+footer table{
+  color: white;
+  text-align-last: center;
+}
+
+footer address{
+  font-size: 15px;
+  color: white;
+  text-align-last: center;
+}
+
+#section1 img{
+  width: 500px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+#section1 p{
+  font-family: 'Bitter', serif;
+  font-size: 18px;
+}
+
+p{
+  font-family: 'Bitter', serif;
+  font-size: 15px;
+}
+
+ul li{
+  font-family: 'Bitter', serif;
+  font-size: 15px;
+}
+#mytable{
+  table-layout: fixed; width: 100%;
+  text-align-last: center;
+  color: white;
+}

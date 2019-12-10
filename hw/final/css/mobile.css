@@ -1,0 +1,56 @@
+@import "desktop.css";
+
+header{
+  width: 500px;
+  height: auto;
+}
+
+h1{
+  font-size: 75px;
+}
+
+main{
+  width: 500px;
+}
+
+footer{
+  width: 500px;
+}
+
+nav{
+  width: 380px;
+  display: block;
+  text-align: center;
+}
+
+nav ul li{
+  display: block;
+  text-align: center;
+}
+
+img{
+  width: 500px;
+  display: block;
+}
+
+.grid1{
+  width: 500px;
+  display: block;
+  margin-left: -35px;
+}
+
+.grid2{
+  width: 500px;
+  display: block;
+  margin-left: -35px;
+}
+
+.grid3{
+  width: 500px;
+  display: block;
+  margin-left: -35px;
+}
+
+.grid1 img{
+  width: 500px;
+}

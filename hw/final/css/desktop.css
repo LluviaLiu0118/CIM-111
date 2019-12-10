@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700|Oswald&display=swap');
+header{
+  width: 1200px;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+
+  margin-top: -10px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+
+  background-image: url("header.JPG");
+  background-repeat: no-repeat;
+  background-size: 1400px 1000px;
+  background-position: bottom;
+}
+
+main{
+  width: 1200px;
+  height: auto;
+
+  padding: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+footer{
+  background-color: black;
+  width: 1200px;
+  height: 250px;
+  text-align-last: center;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+
+footer table{
+  color: white;
+}
+
+footer address{
+  font-size: 15px;
+  color: white;
+  text-align-last: center;
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  text-align-last: center;
+  text-decoration: overline underline;
+  font-size: 130px;
+}
+
+nav{
+  width: 700px;
+  margin: 0 auto;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  font-family: 'Arvo', serif;
+  font-size: 20px;
+
+}
+
+nav ul li:hover{
+  font-style: oblique;
+  background-color: #DFB19B;
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+}
+
+.grid1{
+  display: grid;
+  weight: 1200px;
+  height: auto;
+  margin: 0 auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  align-items: center;
+
+  padding: 20px 20px 20px 20px;
+}
+
+.grid1 img{
+  width: 550px;
+  height: 325px;
+  display: inline-block;
+}
+
+#poo2{
+  font-family: 'Arvo', serif;
+  font-size: 14px;
+}
+
+#poo2 ul{
+  list-style: none;
+}
+
+#poo2 a{
+  color: blue;
+  text-decoration: underline;
+  font-family: 'Arvo', serif;
+  font-size: 14px;
+}
+
+#poo2 a:hover{
+  font-style: oblique;
+}
+
+#dg1{
+  font-family: 'Arvo', serif;
+  font-size: 14px;
+}
+
+#dg1 ul{
+  list-style: none;
+}
+
+#dg1 a{
+  color: blue;
+  text-decoration: underline;
+  font-family: 'Arvo', serif;
+  font-size: 14px;
+}
+
+#dg1 a:hover{
+  font-style: oblique;
+}
+
+#carmen1{
+  font-family: 'Arvo', serif;
+  font-size: 14px;
+}
+
+#carmen1 ul{
+  list-style: none;
+}
+
+#carmen1 a{
+  color: blue;
+  text-decoration: underline;
+  font-family: 'Arvo', serif;
+  font-size: 14px;
+}
+
+#carmen1 a:hover{
+  font-style: oblique;
+}
+
+#cats1{
+  font-family: 'Arvo', serif;
+  font-size: 14px;
+}
+
+#cats1 ul{
+  list-style: none;
+}
+
+#cats1 a{
+  color: blue;
+  text-decoration: underline;
+  font-family: 'Arvo', serif;
+  font-size: 14px;
+}
+
+#cats1 a:hover{
+  font-style: oblique;
+}
+
+#mf1{
+  font-family: 'Arvo', serif;
+  font-size: 14px;
+}
+
+#mf1 ul{
+  list-style: none;
+}
+
+#mf1 a{
+  color: blue;
+  text-decoration: underline;
+  font-family: 'Arvo', serif;
+  font-size: 14px;
+}
+
+#mf1 a:hover{
+  font-style: oblique;
+}
+
+.grid2{
+  display: grid;
+  weight: 1200px;
+  height: auto;
+  margin: 0 auto;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.grid2 img{
+  width: 200px;
+  height: auto;
+  display: inline-block;
+}
+
+.grid3{
+  display: grid;
+  weight: 1200px;
+  height: auto;
+  margin: 0 auto;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.grid3 img{
+  width: 200px;
+  height: auto;
+  display: inline-block;
+}
+
+.plugin img{
+  width: 200px;
+  height: 100px;
+}
+
+#tlk{
+  width: 350px;
+  font-family: 'Arvo', serif;
+  font-size: 12px;
+}
+
+#tlk img{
+  width: 350px;
+}
+
+#tlk p{
+  width: 350px;
+  font-family: 'Arvo', serif;
+  font-size: 12px;
+}
+
+#frozen{
+  width: 350px;
+  font-family: 'Arvo', serif;
+  font-size: 12px;
+}
+
+#frozen img{
+  width: 350px;
+}
+
+#frozen p{
+  width: 350px;
+  font-family: 'Arvo', serif;
+  font-size: 12px;
+}
+
+#chicago{
+  width: 350px;
+  font-family: 'Arvo', serif;
+  font-size: 12px;
+}
+
+#chicago img{
+  width: 350px;
+}
+
+#chicago p{
+  width: 350px;
+  font-family: 'Arvo', serif;
+  font-size: 12px;
+}
+
+#hamilton{
+  width: 350px;
+  font-family: 'Arvo', serif;
+  font-size: 12px;
+}
+
+#hamilton img{
+  width: 350px;
+}
+
+#hamilton p{
+  width: 350px;
+  font-family: 'Arvo', serif;
+  font-size: 12px;
+}
+
+#wicked{
+  width: 350px;
+  font-family: 'Arvo', serif;
+  font-size: 12px;
+}
+
+#wicked img{
+  width: 350px;
+}
+
+#wicked p{
+  width: 350px;
+  font-family: 'Arvo', serif;
+  font-size: 12px;
+}
+
+#jb{
+  width: 350px;
+  font-family: 'Arvo', serif;
+  font-size: 12px;
+}
+
+#jb img{
+  width: 350px;
+}
+
+#jb p{
+  width: 350px;
+  font-family: 'Arvo', serif;
+  font-size: 12px;
+}
+
+#mytable{
+  table-layout: fixed; width: 100%;
+  text-align-last: center;
+  font-family: 'Arvo', serif;
+  color: white;
+}
